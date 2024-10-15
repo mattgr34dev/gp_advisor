@@ -6,5 +6,8 @@ description 'Traffic Advisor for HWY'
 version '1.0.0'
 
 -- What to run
+shared_script '@ox_lib/init.lua'
+
 client_script 'function.lua'
+
 server_script 'commands.lua'
