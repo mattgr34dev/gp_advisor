@@ -1,5 +1,3 @@
-local qbcore
-
 function utils.openBombBay(vehicle)
   if AreBombBayDoorsOpen(vehicle) then
     CloseBombBayDoors(vehicle)
